@@ -1,0 +1,22 @@
+# Build output
+/target
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Debug and profiling artifacts
+**/*.rs.bk
+*.pdb
+flamegraph.svg
+perf.data*
+
+# Environment files
+.env
+.env.*
+
+# Local scratch files
+*.log
